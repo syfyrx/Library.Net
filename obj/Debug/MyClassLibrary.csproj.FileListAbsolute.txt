@@ -1,0 +1,7 @@
+D:\Projects\MyClassLibrary\MyClassLibrary\bin\Debug\MyClassLibrary.dll
+D:\Projects\MyClassLibrary\MyClassLibrary\bin\Debug\MyClassLibrary.pdb
+D:\Projects\MyClassLibrary\MyClassLibrary\bin\Debug\System.Data.SQLite.dll
+D:\Projects\MyClassLibrary\MyClassLibrary\obj\Debug\MyClassLibrary.dll
+D:\Projects\MyClassLibrary\MyClassLibrary\obj\Debug\MyClassLibrary.pdb
+D:\Projects\MyClassLibrary\MyClassLibrary\bin\Debug\MySql.Data.dll
+D:\Projects\MyClassLibrary\MyClassLibrary\obj\Debug\MyClassLibrary.csprojResolveAssemblyReference.cache

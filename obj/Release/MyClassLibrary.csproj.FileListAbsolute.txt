@@ -1,0 +1,6 @@
+D:\Projects\MyClassLibrary\MyClassLibrary\bin\Release\MyClassLibrary.dll
+D:\Projects\MyClassLibrary\MyClassLibrary\bin\Release\MyClassLibrary.pdb
+D:\Projects\MyClassLibrary\MyClassLibrary\bin\Release\MySql.Data.dll
+D:\Projects\MyClassLibrary\MyClassLibrary\bin\Release\System.Data.SQLite.dll
+D:\Projects\MyClassLibrary\MyClassLibrary\obj\Release\MyClassLibrary.dll
+D:\Projects\MyClassLibrary\MyClassLibrary\obj\Release\MyClassLibrary.pdb
