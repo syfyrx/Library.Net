@@ -19,6 +19,10 @@ namespace Library.Net.Database
 		/// 关闭数据库连接
 		/// </summary>
 		public abstract void Close();
+        /// <summary>
+        /// 释放资源
+        /// </summary>
+        public abstract void Dispose();
 		/// <summary>
 		/// 启动事务
 		/// </summary>

@@ -37,6 +37,13 @@ namespace Library.Net.Database
 				dbConn.Close();
 			}
 		}
+        public override void Dispose()
+        {
+            if (dbConn != null)
+            {
+                dbConn.Dispose();
+            }
+        }
 		public override void BeginTrans()
 		{
 			if (dbConn.State != ConnectionState.Open)
