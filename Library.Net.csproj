@@ -31,17 +31,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="MySql.Data">
-      <HintPath>CLDatabase\DLL\MySql.Data.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data.OracleClient" />
-    <Reference Include="System.Data.SQLite, Version=1.0.77.0, Culture=neutral, PublicKeyToken=1fdb50b1b62b4c84, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>CLDatabase\DLL\System.Data.SQLite.dll</HintPath>
-    </Reference>
     <Reference Include="System.Drawing" />
     <Reference Include="System.Management" />
     <Reference Include="System.Web" />
@@ -58,6 +51,7 @@
     <Compile Include="Common\CHashFile.cs" />
     <Compile Include="Common\CValidateCode.cs" />
     <Compile Include="Common\AppConfig.cs" />
+    <Compile Include="Common\Time.cs" />
     <Compile Include="Database\Provider.cs" />
     <Compile Include="Database\DbFactory.cs" />
     <Compile Include="Database\DbHelper.cs" />
