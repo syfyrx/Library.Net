@@ -27,6 +27,7 @@ namespace Library.Net.Database
 				case DbProvider.SQLite:
 					break;
 				case DbProvider.MySQL:
+                    provider = new MySqlProvider(mConnectionString);
 					break;
 				default:
 					break;

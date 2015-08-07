@@ -40,6 +40,13 @@ namespace Library.Net.Database
 		/// 回滚事务
 		/// </summary>
 		public abstract void RollbackTrans();
+        /// <summary>
+        /// 创建参数
+        /// </summary>
+        /// <param name="parameterName"></param>
+        /// <param name="value"></param>
+        /// <returns></returns>
+        public abstract DbParameter CreateParameter(string parameterName, object value);
 		/// <summary>
 		/// 执行SQL命令，返回影响的行数
 		///</summary>

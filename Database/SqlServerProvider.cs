@@ -68,6 +68,10 @@ namespace Library.Net.Database
 		{
 			dbTrans.Rollback();
 		}
+        public override DbParameter CreateParameter(string parameterName, object value)
+        {
+            return new SqlParameter(parameterName, value);
+        }
 		public override int ExecuteNonQuery(string commandText)
 		{
 			dbCmd.CommandText = commandText;
