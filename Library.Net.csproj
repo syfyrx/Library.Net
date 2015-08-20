@@ -56,6 +56,7 @@
     <Compile Include="Common\CHashFile.cs" />
     <Compile Include="Common\CValidateCode.cs" />
     <Compile Include="Common\AppConfig.cs" />
+    <Compile Include="Common\Encryption.cs" />
     <Compile Include="Common\Time.cs" />
     <Compile Include="Database\MySqlProvider.cs" />
     <Compile Include="Database\Provider.cs" />
@@ -64,7 +65,6 @@
     <Compile Include="Database\SqlServerProvider.cs" />
     <Compile Include="Common\WebConfig.cs" />
     <Compile Include="CLEncryption\CCRC.cs" />
-    <Compile Include="CLEncryption\CMD5Encryption.cs" />
     <Compile Include="Common\CHardware.cs" />
     <Compile Include="CLEncryption\CRSAEncryption.cs" />
     <Compile Include="Common\CString.cs" />

@@ -1,15 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using System.Security.Cryptography;
+using System.Text;
 
-namespace Library.Net.CLEncryption
+namespace Library.Net.Common
 {
-    /// <summary>
-    /// MD5类
-    /// </summary>
-    public class CMD5Encryption
+    public class Encryption
     {
         /// <summary>
         /// MD5加密
