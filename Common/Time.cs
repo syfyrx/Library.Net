@@ -11,17 +11,16 @@ namespace Library.Net.Common
         /// 获取时间戳 
         /// </summary> 
         /// <returns></returns> 
-        public static string GetTimeStamp()
+        public static int GetTimeStamp()
         {
-            TimeSpan ts = DateTime.UtcNow - new DateTime(1970, 1, 1, 0, 0, 0, 0);
-            return Convert.ToInt64(ts.TotalMilliseconds).ToString();
+            return ConvertDateTimeInt(DateTime.Now);
         }
         /// <summary>
         /// Unix时间戳格式转为DateTime时间格式
         /// </summary>
         /// <param name=”timeStamp”></param>
         /// <returns></returns>
-        private DateTime GetTime(string timeStamp)
+        public static DateTime GetTime(string timeStamp)
         {
             DateTime dtStart = TimeZone.CurrentTimeZone.ToLocalTime(new DateTime(1970, 1, 1));
             long lTime = long.Parse(timeStamp + "0000000");
@@ -33,7 +32,7 @@ namespace Library.Net.Common
         /// </summary>
         /// <param name=”time”></param>
         /// <returns></returns>
-        private int ConvertDateTimeInt(System.DateTime time)
+        public static int ConvertDateTimeInt(System.DateTime time)
         {
             System.DateTime startTime = TimeZone.CurrentTimeZone.ToLocalTime(new System.DateTime(1970, 1, 1));
             return (int)(time - startTime).TotalSeconds;
