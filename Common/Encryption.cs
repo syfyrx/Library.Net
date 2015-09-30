@@ -44,5 +44,24 @@ namespace Library.Net.Common
             }
             return result;
         }
+        /// <summary>
+        /// 微信公众平台sha1加密
+        /// </summary>
+        /// <param name="str"></param>
+        /// <returns></returns>
+        public static string SHA1Encryption(string str)
+        {
+            string res = "";
+            byte[] temp1 = Encoding.UTF8.GetBytes(str);
+            SHA1CryptoServiceProvider sha = new SHA1CryptoServiceProvider();
+            byte[] temp2 = sha.ComputeHash(temp1);
+            sha.Clear();
+            // 注意， 不能用这个
+            //string res = Convert.ToBase64String(temp2);
+            res = BitConverter.ToString(temp2);
+            res = res.Replace("-", "");
+            res = res.ToLower();
+            return res;
+        }
     }
 }
