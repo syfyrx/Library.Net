@@ -8,12 +8,12 @@ namespace Library.Net.Common
     public class Time
     {
         /// <summary> 
-        /// 获取时间戳 
+        /// 获取Unix时间戳 
         /// </summary> 
         /// <returns></returns> 
         public static int GetTimeStamp()
         {
-            return ConvertDateTimeInt(DateTime.Now);
+            return ConvertDateTimeInt(DateTime.UtcNow);
         }
         /// <summary>
         /// Unix时间戳格式转为DateTime时间格式
