@@ -48,6 +48,10 @@
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
+    <Reference Include="ThoughtWorks.QRCode, Version=1.0.4778.30637, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\egapi\packages\ThoughtWorks.QRCode.1.1.0\lib\ThoughtWorks.QRCode.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Common\CCache.cs" />
@@ -57,6 +61,7 @@
     <Compile Include="Common\CValidateCode.cs" />
     <Compile Include="Common\AppConfig.cs" />
     <Compile Include="Common\Encryption.cs" />
+    <Compile Include="Common\QRCode.cs" />
     <Compile Include="Common\Time.cs" />
     <Compile Include="Database\MySqlProvider.cs" />
     <Compile Include="Database\Provider.cs" />
