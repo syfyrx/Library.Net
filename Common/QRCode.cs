@@ -17,7 +17,10 @@ namespace Library.Net.Common
             Bitmap res;
             string enCodeString = txt;
             QRCodeEncoder qrCodeEncoder = new QRCodeEncoder();
-            res = qrCodeEncoder.Encode(enCodeString, Encoding.UTF8);
+            qrCodeEncoder.QRCodeScale = 4;
+            qrCodeEncoder.QRCodeVersion = 0;
+            qrCodeEncoder.QRCodeErrorCorrect = QRCodeEncoder.ERROR_CORRECTION.M;
+            res = qrCodeEncoder.Encode(enCodeString);
             return res;
         }
     }
