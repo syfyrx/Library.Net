@@ -61,6 +61,7 @@
     <Compile Include="Common\CValidateCode.cs" />
     <Compile Include="Common\AppConfig.cs" />
     <Compile Include="Common\Encryption.cs" />
+    <Compile Include="Common\ImgVerifyCode.cs" />
     <Compile Include="Common\QRCode.cs" />
     <Compile Include="Common\Time.cs" />
     <Compile Include="Database\MySqlProvider.cs" />
